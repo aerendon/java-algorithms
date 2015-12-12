@@ -1,0 +1,78 @@
+\documentclass[10pt,letterpaper,twocolumn]{article}
+%\documentclass[10pt,letterpaper]{article}
+% ---------------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{listings}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{amsmath}
+\usepackage{calc}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{pgfplots}
+\usepackage{array}
+
+\usetikzlibrary{external}
+\tikzexternalize[prefix=pics/]
+
+% Para incluir gráficas en MetaPost: http://tex.stackexchange.com/questions/1565/metapost-pictures-in-pdflatex
+\DeclareGraphicsRule{.1}{mps}{*}{} 
+\DeclareGraphicsRule{.2}{mps}{*}{}
+\DeclareGraphicsRule{.3}{mps}{*}{}
+\DeclareGraphicsRule{.4}{mps}{*}{}
+
+%Poner la página en landscape
+\geometry{verbose,landscape,letterpaper,tmargin=1.5cm,bmargin=2cm,lmargin=1.6cm,rmargin=1.6cm}
+
+\newcommand{\codigofuente}[1]{
+\verbatiminput{#1}
+\dotfill
+}
+\setlength{\columnsep}{0.25in}
+\setlength{\columnseprule}{1px}
+
+% ---------------------------------------------------------------
+\begin{document}
+% ---------------------------------------------------------------
+\title{Algoritmos en Java Programación Competitiva}
+\author{Triforce X}
+\date{\today}
+\maketitle
+% ---------------------------------------------------------------
+
+% ---------------------------------------------------------------
+\tableofcontents
+% ---------------------------------------------------------------
+\section{I/O}
+% ---------------------------------------------------------------
+\subsection{Scanner Rápido}
+\small
+\codigofuente{./src/scanner1.java}
+
+% ---------------------------------------------------------------
+\section{Teoría de Grafos}
+% ---------------------------------------------------------------
+\subsection{DFS: Depth First Search}
+\small
+\textbf{Búsqueda en Profundidad:}
+\codigofuente{./src/teoria_de_grafos/dfs.java}
+
+% ---------------------------------------------------------------
+\section{Teoría de Números}
+% ---------------------------------------------------------------
+\subsection{MulFast}
+\small
+\textbf{Multiplicación Rápida:}
+\codigofuente{./src/teoria_de_numeros/mul_fast.java}
+
+\subsection{PowFast}
+\small
+\textbf{Potenciación Rápida:}
+\codigofuente{./src/teoria_de_numeros/pow_fast.java}
+
+
+
+\end{document}
