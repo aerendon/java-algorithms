@@ -3,6 +3,8 @@
 \contentsline {subsection}{\numberline {1.1}Scanner R\IeC {\'a}pido}{1}{subsection.1.1}
 \contentsline {section}{\numberline {2}Teor\IeC {\'\i }a de Grafos}{1}{section.2}
 \contentsline {subsection}{\numberline {2.1}DFS: Depth First Search}{1}{subsection.2.1}
-\contentsline {section}{\numberline {3}Teor\IeC {\'\i }a de N\IeC {\'u}meros}{2}{section.3}
-\contentsline {subsection}{\numberline {3.1}MulFast}{2}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}PowFast}{2}{subsection.3.2}
+\contentsline {section}{\numberline {3}Programaci\IeC {\'o}n Din\IeC {\'a}mica (DP)}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}LIS}{2}{subsection.3.1}
+\contentsline {section}{\numberline {4}Teor\IeC {\'\i }a de N\IeC {\'u}meros}{2}{section.4}
+\contentsline {subsection}{\numberline {4.1}MulFast}{2}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}PowFast}{2}{subsection.4.2}

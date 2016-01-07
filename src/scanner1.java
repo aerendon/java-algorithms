@@ -10,12 +10,12 @@ static class Scanner{
         return tk.nextToken();
     }
     public int nextInt() throws NumberFormatException, IOException{
-        return Integer.valueOf(next());
+        return Integer.parseInt(next());
     }
     public long nextLong() throws NumberFormatException, IOException{
-        return Long.valueOf(next());
+        return Long.parseLong(next());
     }
     public double nextDouble() throws NumberFormatException, IOException{
-        return Double.valueOf(next());
+        return Double.parseDouble(next());
     }
 }
