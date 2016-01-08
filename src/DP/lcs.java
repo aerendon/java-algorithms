@@ -1,3 +1,12 @@
+/*
+Inputs:
+	x, y : String
+	m : Tamaño de x
+	n : Tamaño de y
+Outputs:
+	lcs
+ */
+
 public static int lcs(String x, String y, int m, int n) {
 	int[][] L = new int[m+1][n+1];
 
